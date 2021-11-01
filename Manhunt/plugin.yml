@@ -1,0 +1,14 @@
+name: Manhunt
+version: 1.0
+author: OptimumPortal
+main: me.optimumportal.manhunt.Main
+description: Minecraft Manhunt Plugin
+api-version: 1.17
+prefix: Manhunt
+permissions:
+  manhunt.admin:
+    description: An administrator, able to change the speedrunner.
+commands:
+  manhunt:
+    description: Change the speedrunner
+    usage: /<command>
